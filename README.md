@@ -9,6 +9,12 @@ Features:
 - It allows to delete a product.
 - It allows to view a single product.
 
+Tech Stack
+==========
+
+- Python, Flask, Flask-RESTful, Flask-mongoengine
+- Database: MongoDB
+
 Get started
 ===========
 
@@ -47,7 +53,7 @@ http://127.0.0.1:5001/api/
       
 
 ### API Documentation
-Please see[API DOCUMENTATION](https://documenter.getpostman.com/view/10207322/TVRj5oGL)
+Please see [API DOCUMENTATION](https://documenter.getpostman.com/view/10207322/TVRj5oGL)
 
 
 ### Possible Features Upates
