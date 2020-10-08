@@ -65,7 +65,7 @@ docker run --name  product_rest_api -d -p 5001:5001 product_rest_api
 ### Accessing API
 After deploying docker container on localhost access api using POSTMAN.
 
-So install postman and visit the api endpoints. Following are the endpoint that will be avialabe on localchost.
+So install postman and visit the api endpoints. The endpoint that will be avialabe on localchost is 
 http://127.0.0.1:5001/api/
       
 
