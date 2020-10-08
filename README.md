@@ -15,6 +15,23 @@ Tech Stack
 - Python, Flask, Flask-RESTful, Flask-mongoengine
 - Database: MongoDB
 
+Directory Structure and Description
+===================================
+```bash
+.
+├── app.py : This contains main login to initialize flask app, rest_app and  database configuration.
+├── database
+│   ├── db.py: This defines initializer for database using mongoengine.
+│   ├── models.py: This defines schema for Product model.
+├── Dockerfile: This files defines the configuration for docker container.
+├── requirements.txt: This lists the requirement to run project.
+└── resources
+    ├── errors.py:  This defines all custom error possible in project.
+    ├── product.py: This defines all the handler for available enpoints.
+    └── routes.py: This defines all the endpoints available for the API.
+
+```
+
 Get started
 ===========
 
